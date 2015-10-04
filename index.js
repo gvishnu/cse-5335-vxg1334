@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/data', function(request, response) {
-  var data = require('./videodata.json');
+  var data = require('./data.json');
   response.json(data);
 });
 
