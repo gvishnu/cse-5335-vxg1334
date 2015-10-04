@@ -8,8 +8,15 @@
     $("#demo").click(function(){
         console.log("hello");
         $.get( "/data", function( data ) {
-  $( "body" )
-    .append( "Name: " + data.categories ); 
+          var cat = data.categories
+          for (i = 0; i < cat.length; i++)
+          {
+            var item = cat[i];
+            $( "body" ).append( "Name: " + item.categoryID );
+  $( "body" ).append( "Name: " + item.parentID );
+            
+          }
+ 
     
 }, "json" );
     });
