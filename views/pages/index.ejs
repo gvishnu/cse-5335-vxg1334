@@ -2,11 +2,21 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#demo").click(function(){
+        console.log("hello");
+    });
+});
+  </script>
+
 </head>
 
 <body>
 
  <input id = 'demo' type = "button" value = "click me!">
+ 
 
 </body>
 </html>
