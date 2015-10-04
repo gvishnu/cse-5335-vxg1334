@@ -7,6 +7,11 @@
   $(document).ready(function(){
     $("#demo").click(function(){
         console.log("hello");
+        $.get( "/data", function( data ) {
+  $( "body" )
+    .append( "Name: " + data.categories ); 
+    
+}, "json" );
     });
 });
   </script>
