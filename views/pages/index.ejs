@@ -13,12 +13,12 @@
         
         $.get( "/data", function( data ) {
           var cat = data.categories
+          $("table").append("<thead><tr><th>Country</th><th>Population</th></tr></thead>");
           for (i = 0; i < cat.length; i++)
           {
             var item = cat[i];
             
-            $( "body" ).append( "categoryID: " + item.categoryID + "<br>"); 
-  $( "body" ).append( "parentID: " + item.parentID + "<br>");
+            $("table").append("<tbody><tr><td>" + item.categoryID + "</td><td>" + item.categoryName + "</td></tr></tbody>");
             
             
           }
@@ -36,6 +36,9 @@
   <div class="container">
   
  <input id = 'demo' type = "button" value = "click me!" class="btn btn-default"> <br>
+ <table class = "table">
+
+    </table>
  
  
  </div>
