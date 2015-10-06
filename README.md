@@ -1,38 +1,21 @@
-# node-js-getting-started
+a) The server framework which is used to develop this application was “node.js”. It means people see value in creating modules for it
+that are highly plausible is a lot easier than creating a Ruby GEM. However both Ruby and node.js come close to each other in 
+terms of popularity.
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+b) The client framework which is used to develop this application was “JQUERY”. The main thing which can get impressed with 
+Query is any complex code can be concluded in a single line of code and is a modular set of ross-browser methods for making
+AJAX requests. 
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+c) Deploying my site in Heroku server troubled me a bit more. It gave me more authentication problems while I changed the 
+project name. Moreover, the commands to clone my code to Heroku made me to put some effort. However, this got solved by 
+fixing some bugs in my Mac OS X terminal. 
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+d) The client framework, which was developed in HTML and JQuery is a bit simpler compared to others. These have a good resources and 
+references like www.w3schools.com to learn and implement in my workspace. 
 
-## Running Locally
+e) The other components other than client and server which were included were, heroku server. This is used to deploy my weblink. 
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+f) This application was deployed and run in heroku server. The commands used to run these were 
+	1) git add .
+	2) git commit - m “comment”
+	3) git push heroic master 
