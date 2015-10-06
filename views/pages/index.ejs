@@ -6,7 +6,7 @@
   <script>
   $(document).ready(function(){
     $("#demo").click(function(){
-        console.log("hello");
+        
         $.get( "/data", function( data ) {
           var cat = data.categories
           for (i = 0; i < cat.length; i++)
