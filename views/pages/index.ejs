@@ -13,7 +13,7 @@
         
         $.get( "/data", function( data ) {
           var cat = data.categories
-          $("table").append("<thead><tr><th>Country</th><th>Population</th></tr></thead>");
+          $("table").append("<thead><tr><th>categoryID</th><th>categoryName</th></tr></thead>");
           for (i = 0; i < cat.length; i++)
           {
             var item = cat[i];
